@@ -28,3 +28,4 @@ To watch some training videos, visit http://www.youtube.com/user/c9ide
 20124239 Dao Manh Nhat
 20121908 Le Duy Khanh
 20122691 Nguyen Duy Tuan
+20122435 Vu Tat Thanh
