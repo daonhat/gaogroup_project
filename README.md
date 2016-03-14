@@ -26,8 +26,7 @@ To watch some training videos, visit http://www.youtube.com/user/c9ide
 20124919 Nguyen Hoang Vu
 20121951 Le Nhu Lai
 20124239 Dao Manh Nhat
-<<<<<<< HEAD
 20122435 Vu Tat Thanh
-=======
 20121908 Le Duy Khanh
->>>>>>> dd8cd48c5f75b2672775f6452a3ebe7d671b9853
+20122691 Nguyen Duy Tuan
+
