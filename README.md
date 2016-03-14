@@ -24,3 +24,8 @@ Visit http://docs.c9.io for support, or to learn more about using Cloud9 IDE.
 To watch some training videos, visit http://www.youtube.com/user/c9ide
 
 20124919 Nguyen Hoang Vu
+20121951 Le Nhu Lai
+20124239 Dao Manh Nhat
+20122435 Vu Tat Thanh
+20121908 Le Duy Khanh
+20122691 Nguyen Duy Tuan
