@@ -25,3 +25,4 @@ To watch some training videos, visit http://www.youtube.com/user/c9ide
 
 20124919 Nguyen Hoang Vu
 20121951 Le Nhu Lai
+20124239 Dao Manh Nhat
