@@ -1,6 +1,8 @@
 @import "bootstrap-sprockets";
 @import "bootstrap";
-
+.clearfix{
+  overflow:auto;
+}
 body {  
   background-color: #fafafa;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
@@ -41,7 +43,6 @@ body {
 }
 
 .post-head {
-  height: 64px;
   padding: 14px 20px;
   color: #125688;
   font-size: 15px;
@@ -53,8 +54,10 @@ body {
   }
 
 .image {
+  
   border-bottom: 1px solid #eeefef;
   border-top: 1px solid #eeefef;
+  height:auto;
 }
 
 .caption {
