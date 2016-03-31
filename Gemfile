@@ -7,7 +7,7 @@ gem 'paperclip', '~> 4.2'
 gem 'simple_form', '~> 3.1.0'
 # Use sqlite3 as the database for Active Record
 gem 'bootstrap-sass', '~> 3.3.6'
-
+gem 'devise'
 gem 'sqlite3'
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'

@@ -1,11 +1,10 @@
-
 <div class = "posts-wrapper row">
 
  <% @posts.each do |post| %>
   <div class = "post">
    <div class = "post-head clearfix">
     <div class = "name">
-       Lê Duy Khánh
+       <%= post.user.user_name %>
     </div>
     <div class = "image center-block">
       <%=link_to (image_tag post.image.url(:medium), class:'img-responsive'), post_path(post)  %>
