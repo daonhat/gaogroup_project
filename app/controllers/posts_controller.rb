@@ -1,7 +1,7 @@
 class PostsController < ApplicationController
-before_action :owned_post, only: [:edit, :update, :destroy] 
 before_action :set_post, only: [:show, :edit, :update, :destroy]
 before_action :authenticate_user!
+before_action :owned_post, only: [:edit, :update, :destroy] 
     def index
         @posts = Post.all
     end
@@ -12,7 +12,7 @@ before_action :authenticate_user!
             flash[:success] = "Your post has been created!"
             redirect_to posts_path
         else
-            flash[:alert] = "Your new post couldn't be created!  Please check the form."
+            flash[:danger] = "Your new post couldn't be created!  Please check the form."
             render :new
         end
     end
