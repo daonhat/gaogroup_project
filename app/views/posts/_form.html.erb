@@ -5,13 +5,13 @@
         </div>
     </div>
 </div>
-<div class = "form-wrapper">
+<div class = "form-wrapper dn-wrapper-bonus">
     <%= simple_form_for @post, html: { class: 'form-horizontal', multipart: true } do |f| %>
     <div class = "form-group">
         <%= f.input :image %>
     </div>
     <div class = "form-group text-center">
-        <%= f.input :caption %>        
+        <%= f.input :caption, input_html: { class: 'input-lg dn-post-btn' } %>        
     </div>
     <div class = "form-group text-center">
               <%= f.button :submit, class:'btn btn btn-success' %>     
