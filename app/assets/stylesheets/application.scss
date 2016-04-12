@@ -31,6 +31,10 @@ body {
 
 .alert {
   margin-bottom: 0px;
+  z-index: 3000;
+  position: fixed;
+  top: 52px;
+  width: 100%;
 }
 
 /* ## NAVBAR CUSTOMISATIONS ## */
@@ -66,7 +70,7 @@ body {
 /* ## POST CUSTOMISATIONS ## */
 
 .posts-wrapper {
-  padding-top: 40px;
+  padding-top: 52px;
   margin: 0 auto;
   max-width: 642px;
   width: 100%;
