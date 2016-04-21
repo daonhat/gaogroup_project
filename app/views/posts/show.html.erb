@@ -11,6 +11,9 @@
         <p class = "caption">
             <%= @post.caption %>
         </p>
+        <p class = "caption">
+            <%= render @post.tags %>
+        </p>
         <% if @post.user.id == current_user.id %>
         <div class = "text-center">
             <%= link_to "Cancel", posts_path, class: 'btn dn-btn-cancel' %>

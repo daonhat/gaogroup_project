@@ -59,7 +59,7 @@ before_action :owned_post, only: [:edit, :update, :destroy]
     end
 private
     def post_params
-        params.require(:post).permit(:image, :caption)
+        params.require(:post).permit(:image, :caption, :tag_list)
     end
     def set_post
         @post = Post.find(params[:id])

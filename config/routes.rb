@@ -12,6 +12,7 @@ Rails.application.routes.draw do
   # New route underneath
   get ':user_name/edit', to: 'profiles#edit', as: :edit_profile  
   patch ':user_name/edit', to: 'profiles#update', as: :update_profile
+  resources :tags, only: [:index, :show]
   # The priority is based upon order of creation: first created -> highest priority.
   # See how all your routes lay out with "rake routes".
 
