@@ -13,28 +13,22 @@
  *= require_tree .
  *= require_self
  */
+
  @import "bootstrap-sprockets";
  @import "bootstrap";
-*{
-  margin:0;
-  padding:0;
-}
+
 html {
-  height: auto;
+  height: 100%;
 }
 
 body {
-  height: auto;
+  height: 100%;
   background-color: #fafafa;
   font-family: proxima-nova, 'Helvetica Neue', Arial, Helvetica, sans-serif;
 }
 
 .alert {
   margin-bottom: 0px;
-  z-index: 3000;
-  position: fixed;
-  top: 52px;
-  width: 100%;
 }
 
 /* ## NAVBAR CUSTOMISATIONS ## */
@@ -60,17 +54,11 @@ body {
   max-width: 640px;
   margin: 0 auto;
 }
-.screen-alert{
-  text-align: center;
-  // margin-left: 300px;
-  // margin-right: 300px;
-  
-}
 
 /* ## POST CUSTOMISATIONS ## */
 
 .posts-wrapper {
-  padding-top: 52px;
+  padding-top: 40px;
   margin: 0 auto;
   max-width: 642px;
   width: 100%;
@@ -135,7 +123,6 @@ body {
       color: #515151;
     }
   }
-  margin-top: 7px;
   margin-bottom: 7px;
   padding-left: 24px;
   padding-right: 24px;
@@ -150,7 +137,6 @@ body {
   border: medium none;
   width: 100%;
   color: #4B4F54;
-  outline: none;
 }
 
 .comment-like-form {
@@ -173,12 +159,9 @@ body {
 }
 
 .registration-bg {
-  position: relative;
-  top: 52px;
   padding-top: 4em;
-  padding-bottom: 120px;
-  height: auto;
-  background-image: image-url('bg.jpg');
+  height: 100%;
+  background-image: image-url('regbackg.jpg');
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -187,9 +170,8 @@ body {
 
 .login-bg {
   padding-top: 4em;
-  padding-bottom: 162px;
-  height: auto;
-  background-image: image-url('bg.jpg');
+  height: 100%;
+  background-image: image-url('loginbg.jpg');
   -moz-background-size: cover;
   -webkit-background-size: cover;
   -o-background-size: cover;
@@ -219,7 +201,7 @@ body {
 
 #post_image {
   padding: 1em;
-  // margin: 0px auto;
+  margin: 0px auto;
 }
 
 
@@ -333,111 +315,4 @@ body {
     background-color: white;
     padding: 1em;
   }
-}
-
-.glyphicon:hover {
-  cursor: pointer;
-  color: red;
-}
-
-.dn-navbar{
-  position: fixed!important;
-  z-index: 2000;
-  width: 100%!important;
-  border-radius: 0!important;
-}
-
-.error{
-  display:block!important;
-  color:red;
-}
-//css trang login - dn
-.dn-panel{
-  margin-bottom: 0!important;
-  margin-top: 60px!important;
-}
-.dn-login-btn{
-    width: 80%;
-    margin: 0 auto;
-    outline: none;
-    margin-bottom: 15px;
-    border: 2px solid rgba(0,137,255,0.6)
-}
-
-.dn-login-btnlg{
-  width: 80%!important;
-  margin: 0 auto;
-}
-
-.dn-login-bottom{
-  margin-bottom: 15px;
-}
-//het css trang login - dn
-
-//css trang register-dn
-.dn-register-btn{
-  width:80%!important;
-  margin: 0 auto;
-  border: 2px solid rgba(0,137,255,0.6);
-  margin-bottom: 15px!important;
-  outline:none;
-}
-//het css trang register-dn
-
-//css trang post
-.dn-post-wrapper{
-  position: relative;
-  top: 100px;
-  left: 275px;
-  padding-top: 80px!important;
-  width: 60%;
-  background-color: #fff;
-  padding: 40px;
-  border: 1px solid #eeefef;
-  border-radius: 3px;
-}
-
-.dn-wrapper-bonus{
-  padding-top: 80px!important;
-  width: 48%;
-  margin: 0 auto;
-  background-color: #fff;
-  padding: 40px;
-  border: 1px solid #eeefef;
-  border-radius: 3px;
-}
-.dn-post-btn{
-  width:85%!important;
-  margin: 0 auto;
-  border: 1px solid #eeefef;
-  margin-bottom: 15px!important;
-  margin-left: 35px;
-  outline:none;
-}
-
-.dn-btn-cancel{
-    border-color: #2e6da4;
-    margin-right: 3px;
-}
-
-.dn-btn-cancel:hover{
-    color: #fff;
-    background-color: #337ab7;
-    border-color: #2e6da4;
-}
-.dn-btn-edit:hover{
-    background-color: #fff;
-    color: #337ab7;
-}
-.dn-cancel-delete{
-  margin-top: 15px;
-}
-//css new post
-img{
-  max-width : 100%;
-}
-
-//profile avatar
-#user_avatar {
-  margin: 20px auto;
 }

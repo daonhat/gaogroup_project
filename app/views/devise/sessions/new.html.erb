@@ -1,18 +1,18 @@
 <div class="login-bg">
   <div class="container">
     <div class="row">
-      <div class="col-sm-6 col-md-4 col-sm-offset-3 col-md-offset-4">
-        <div class="log-in panel dn-panel">
+      <div class="col-md-4 col-md-offset-4">
+        <div class="log-in panel">
           <div class="panel-heading">
             <h2>Log in</h2>
           </div>
           <%= simple_form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
             <%= f.error_notification %>
             <div class="panel-body">
-              <%= f.input :email, required: true, autofocus: true, label: false, placeholder: 'Email', input_html: { class: 'input-lg dn-login-btn' } %>
-              <%= f.input :password, required: true, label: false, placeholder: 'Password', input_html: { class: 'input-lg dn-login-btn' } %>
+              <%= f.input :email, required: true, autofocus: true, label: false, placeholder: 'Email', input_html: { class: 'input-lg' } %>
+              <%= f.input :password, required: true, label: false, placeholder: 'Password', input_html: { class: 'input-lg' } %>
               <%= f.input :remember_me, as: :boolean if devise_mapping.rememberable? %>
-              <%= f.button :submit, "Log in", class: 'btn-lg btn-info btn-block dn-login-btnlg dn-login-bottom' %>
+              <%= f.button :submit, "Log in", class: 'btn-lg btn-info btn-block' %>
             </div>
           <% end %>
         </div>
