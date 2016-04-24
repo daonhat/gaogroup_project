@@ -10,6 +10,7 @@ gem 'bootstrap-sass', '~> 3.3.6'
 gem 'devise'
 gem 'sqlite3'
 gem 'acts-as-taggable-on'
+gem 'acts_as_votable', '~> 0.10.0'  
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 5.0'
 # Use Uglifier as compressor for JavaScript assets
